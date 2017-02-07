@@ -1,0 +1,92 @@
+
+#contextMenu {
+  position: absolute;
+  display:none;
+}
+body{
+	background-color: #fff;
+	text-align: justify;
+}
+
+.conteudo{
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+	margin: 60px 0px 0px 0px;
+
+	border-radius: 10px 10px;
+}
+
+.center{
+	text-align: justify;
+}
+
+.menu{
+	padding: 10px;
+	height: 60px;
+	color: #fff;
+}
+
+.inputForm{
+	 
+}
+
+.borda{
+	border: 1px solid #bcbcbc;
+	padding: 20px;
+	border-radius: 10px 10px;
+}
+
+.textoSuave{
+	color: #111;
+	font-weight: normal;
+	
+}
+
+.item-lista:hover{
+	background-color: #3299FF;
+	color: white;
+}
+
+.tag {
+  font-size: 13px;
+  padding: .3em .3em .3em .3em;
+  margin: 0 .1em;
+  
+}
+.tag a {
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.tag a:hover {
+  opacity: 1.0
+}
+.tag .remove {
+  vertical-align: top;
+  bottom: 0;
+}
+.tag a {
+  margin: 0 .3em 0 .3em;
+}
+.tag a .glyphicon-white {
+  color: #fff;
+  margin-top: 1px;
+}
+
+
+.success-message{
+	padding-top: 35px;
+	font-weight: 700px;
+	height: 100px;
+	min-width: 1500px;
+	position: fixed;
+	bottom: -20px;
+	right: 0;
+	
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
